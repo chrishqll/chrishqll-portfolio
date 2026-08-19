@@ -169,3 +169,10 @@ body {
   color: var(--muted-color);
   font-family: var(--font-mono);
 }
+.project-subtitle {
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  color: var(--muted-color);
+  margin-top: -4px;
+  margin-bottom: 8px;
+}
