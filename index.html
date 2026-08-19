@@ -3,96 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CHRISTOPHER HALL — ENGINEERING PORTFOLIO</title>
+  <title>Engineering Design Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrapper">
-    
-    <!-- SYSTEM HEADER -->
-    <header class="sys-header">
-      <div class="sys-title">
-        <h1>CHRISTOPHER HALL</h1>
-        <p class="sys-sub">MECHANICAL ENGINEERING // UNIV OF SOUTHAMPTON MALAYSIA</p>
-      </div>
-      <div class="sys-nav">
-        <a href="https://github.com/chrishqll" target="_blank" rel="noopener">GITHUB ↗</a>
-        <a href="https://linkedin.com/in/christopher-hall-thuk" target="_blank" rel="noopener">LINKEDIN ↗</a>
-        <a href="mailto:christopherpattaya@gmail.com">EMAIL ↗</a>
+  <div class="container">
+    <header class="header">
+      <h1 class="name">Christopher Hall</h1>
+      <p class="title">Engineering Design Portfolio</p>
+      <p class="bio">Mechanical Engineering Student at the University of Southampton Malaysia</p>
+      <div class="contact-links">
+        <a href="https://github.com/chrishqll" target="_blank">GitHub</a>
+        <span>&bull;</span>
+        <a href="https://linkedin.com/in/christopher-hall-thuk" target="_blank">LinkedIn</a>
+        <span>&bull;</span>
+        <a href="mailto:christopherpattaya@gmail.com">Email</a>
       </div>
     </header>
 
-    <!-- PROJECT MANIFEST INDEX -->
-    <section class="manifest-section">
-      <div class="manifest-header">
-        <span>INDEX // SELECTED WORKS</span>
-        <span>COUNT [02]</span>
-      </div>
-      
-      <div class="manifest-table">
-        <a href="#project-01" class="manifest-row">
-          <span class="col-id">[01]</span>
-          <span class="col-name">ENERGY CONVERSION CHILDREN’S GAME</span>
-          <span class="col-date">FEB 2026 – APR 2026</span>
-          <span class="col-action">VIEW DOC &darr;</span>
-        </a>
+    <main class="projects">
+      <p class="section-title">Selected Projects</p>
 
-        <a href="#project-02" class="manifest-row">
-          <span class="col-id">[02]</span>
-          <span class="col-name">360 DEGREE FOLDING LAMP</span>
-          <span class="col-date">SEP 2021 – APR 2022</span>
-          <span class="col-action">VIEW DOC &darr;</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- EMBEDDED PDF VIEWERS -->
-    <main class="viewer-main">
-      
-      <!-- PROJECT 01 -->
-      <article id="project-01" class="viewer-block">
-        <div class="block-bar">
-          <div class="block-meta">
-            <span class="block-id">[01]</span>
-            <h2 class="block-title">ENERGY CONVERSION CHILDREN’S GAME</h2>
-          </div>
-          <a href="projects/Bowler Roller - portfolio.pdf" target="_blank" rel="noopener" class="dl-btn">OPEN PDF ↗</a>
+      <article class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Energy Conversion Children’s Game</h2>
+          <span class="project-year">Feb &ndash; Apr 2026</span>
         </div>
-        <div class="block-sub-bar">
-          <span>INSTITUTION: UNIV OF SOUTHAMPTON MALAYSIA</span>
-          <span>DATE: FEB 2026 &ndash; APR 2026</span>
-        </div>
-        <div class="pdf-frame-wrapper">
-          <iframe src="projects/Bowler Roller - portfolio.pdf" type="application/pdf" class="pdf-iframe"></iframe>
+        <p class="project-subtitle">University of Southampton Malaysia</p>
+        <div class="project-footer">
+          <a href="projects/Bowler Roller - portfolio.pdf" class="pdf-link" target="_blank" rel="noopener">View PDF &rarr;</a>
         </div>
       </article>
 
-      <!-- PROJECT 02 -->
-      <article id="project-02" class="viewer-block">
-        <div class="block-bar">
-          <div class="block-meta">
-            <span class="block-id">[02]</span>
-            <h2 class="block-title">360 DEGREE FOLDING LAMP</h2>
-          </div>
-          <a href="projects/Folding Lamp - portfolio.pdf" target="_blank" rel="noopener" class="dl-btn">OPEN PDF ↗</a>
+      <article class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">360 Degree Folding Lamp</h2>
+          <span class="project-year">Sep 2021 &ndash; Apr 2022</span>
         </div>
-        <div class="block-sub-bar">
-          <span>INSTITUTION: UNIV OF SOUTHAMPTON MALAYSIA</span>
-          <span>DATE: SEP 2021 &ndash; APR 2022</span>
-        </div>
-        <div class="pdf-frame-wrapper">
-          <iframe src="projects/Folding Lamp - portfolio.pdf" type="application/pdf" class="pdf-iframe"></iframe>
+        <p class="project-subtitle">University of Southampton Malaysia</p>
+        <div class="project-footer">
+          <a href="projects/Folding Lamp - portfolio.pdf" class="pdf-link" target="_blank" rel="noopener">View PDF &rarr;</a>
         </div>
       </article>
-
     </main>
 
-    <!-- FOOTER -->
-    <footer class="sys-footer">
-      <span>SYS.2026 // CHRISTOPHER HALL</span>
-      <span>HOSTED ON GITHUB PAGES</span>
+    <footer class="footer">
+      <p>&copy; 2026 Christopher Hall. Hosted on GitHub Pages.</p>
     </footer>
-
   </div>
 </body>
 </html>
