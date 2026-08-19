@@ -1,55 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Design Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <h1>Your Name</h1>
-        <p>Mechanical & Systems Engineer | Specializing in Robotics</p>
+  <div class="container">
+    <header class="header">
+      <h1 class="name">Your Name</h1>
+      <p class="title">Engineering Design Portfolio</p>
+      <p class="bio">Selected mechanical engineering design projects, analytical models, and technical reports.</p>
+      <div class="contact-links">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <span>&bull;</span>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+        <span>&bull;</span>
+        <a href="mailto:your.email@example.com">Email</a>
+      </div>
     </header>
 
-    <main class="timeline-container">
-        <!-- Center line anchor for the timeline -->
-        <div class="timeline-line"></div>
+    <main class="projects">
+      <p class="section-title">Selected Works</p>
 
-        <!-- Project 1 (Left Side) -->
-        <div class="timeline-item left">
-            <div class="timeline-content">
-                <span class="date">2026</span>
-                <h3>Autonomous Drone Rig</h3>
-                <p>Designed a custom quadcopter chassis with optimized power-to-weight ratio for automated warehouse scanning workflows.</p>
-                <div class="tags"><span>CAD</span><span>ROS</span><span>C++</span></div>
-                <a href="pdfs/drone-report.pdf" class="btn" target="_blank">View Technical Report (PDF)</a>
-            </div>
+      <article class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Column Buckling & Structural Optimization</h2>
+          <span class="project-year">2026</span>
         </div>
+        <p class="project-desc">Mathematical modeling and mass minimization of hollow cylindrical columns under axial buckling constraints using gradient descent.</p>
+        <div class="project-footer">
+          <div class="tags">
+            <span class="tag">Structural</span>
+            <span class="tag">Python</span>
+            <span class="tag">Optimization</span>
+          </div>
+          <a href="projects/column-optimization.pdf" class="pdf-link" target="_blank" rel="noopener">View PDF &rarr;</a>
+        </div>
+      </article>
 
-        <!-- Project 2 (Right Side) -->
-        <div class="timeline-item right">
-            <div class="timeline-content">
-                <span class="date">2025</span>
-                <h3>High-Torque Robotic Arm</h3>
-                <p>Engineered a 6-axis robotic manipulator arm utilizing cycloidal drives for high-precision payload operations.</p>
-                <div class="tags"><span>SolidWorks</span><span>FEA</span><span>Python</span></div>
-                <a href="pdfs/arm-dossier.pdf" class="btn" target="_blank">View Blueprint Specs (PDF)</a>
-            </div>
+      <article class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Tensile Test & Material Characterization</h2>
+          <span class="project-year">2026</span>
         </div>
+        <p class="project-desc">Experimental stress-strain data processing for mild steel. Optimized Young's Modulus curve fitting via MSE linear regression.</p>
+        <div class="project-footer">
+          <div class="tags">
+            <span class="tag">Materials</span>
+            <span class="tag">Regression</span>
+            <span class="tag">FEA</span>
+          </div>
+          <a href="projects/tensile-characterization.pdf" class="pdf-link" target="_blank" rel="noopener">View PDF &rarr;</a>
+        </div>
+      </article>
 
-        <!-- Project 3 (Left Side) -->
-        <div class="timeline-item left">
-            <div class="timeline-content">
-                <span class="date">2024</span>
-                <h3>SCADA Integration System</h3>
-                <p>Deployed a real-time data monitoring pipeline for industrial CNC machinery using custom microcontrollers.</p>
-                <div class="tags"><span>IoT</span><span>Firmware</span><span>MQTT</span></div>
-                <a href="pdfs/scada-case-study.pdf" class="btn" target="_blank">View Case Study (PDF)</a>
-            </div>
+      <article class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Wind Turbine Generator Cost Analysis</h2>
+          <span class="project-year">2026</span>
         </div>
+        <p class="project-desc">Comparative powertrain analysis and mass-distribution costing for direct-drive vs. geared induction wind turbine generators.</p>
+        <div class="project-footer">
+          <div class="tags">
+            <span class="tag">Renewables</span>
+            <span class="tag">Cost Modeling</span>
+            <span class="tag">Powertrain</span>
+          </div>
+          <a href="projects/wind-turbine-analysis.pdf" class="pdf-link" target="_blank" rel="noopener">View PDF &rarr;</a>
+        </div>
+      </article>
     </main>
 
+    <footer class="footer">
+      <p>&copy; 2026 Your Name. Hosted on GitHub Pages.</p>
+    </footer>
+  </div>
 </body>
 </html>
